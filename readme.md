@@ -15,4 +15,8 @@ Teraz aplikacja powinna działać
 - Włącz serwer (Apache)
 - Przejdź pod adres `/localhost/`ścieżka_projektu`/public/api/user`
 - Strona powinna wyświetlić pustą tablicę (JSON)
-- Użyj narzędzia np. `Postman` aby wysłać do  `/localhost/`ścieżka_projektu`/public/api/user/create` request z **raw body** metodą **PUT**
+- Użyj narzędzia np. `Postman` aby wysłać do  `/localhost/`ścieżka_projektu`/public/api/user/create` request z **raw body** metodą **PUT** np.:
+```
+{"email":"jan.kowalski@gmail.com", "name":"Jan"}
+```
+- po dodaniu kilku użytkowników przejdź spowrotem na `/localhost/`ścieżka_projektu`/public/api/user` i sprawdź listę użytkowników
