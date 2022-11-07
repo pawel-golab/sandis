@@ -13,6 +13,6 @@ DATABASE_URL="mysql://root@127.0.0.1:3306/api
 
 Teraz aplikacja powinna działać
 - Włącz serwer (Apache)
-- Przejdź pod adres `/localhostścieżka_projektu`/public/api/user`
+- Przejdź pod adres `/localhost/`ścieżka_projektu`/public/api/user`
 - Strona powinna wyświetlić pustą tablicę (JSON)
 - Użyj narzędzia np. `Postman` aby wysłać do  `/localhost/`ścieżka_projektu`/public/api/user/create` request z **raw body** metodą **PUT**
